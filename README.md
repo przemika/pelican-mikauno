@@ -2,11 +2,11 @@
 
 A responsive, minimal [Pelican](http://docs.getpelican.com/en/stable/) theme with beautiful fonts. 
 This theme is based on [uno](https://github.com/daleanthony/Uno) for [Ghost](https://ghost.org) environment. 
-If you don't use python/Pelican, you might find following implementations useful:
+If you don't use python/Pelican but want to use uno theme, you might find following implementations useful:
 * [hugo-uno](https://github.com/fredrikloch/hugo-uno) ... using [Go](https://golang.org) under [Hugo](https://gohugo.io) environment
 * [jekyll-uno](https://github.com/joshgerdes/jekyll-uno) ... using [Ruby](https://www.ruby-lang.org/en/) under [Jekyll](https://jekyllrb.com)
-The codes in this repository are taken from results running [jekyll-uno](https://github.com/joshgerdes/jekyll-uno).
 
+The codes in this repository are taken from results running [jekyll-uno](https://github.com/joshgerdes/jekyll-uno).
 I am not an expert of Pelican. In fact this is made on my day 2. Please help correcting mistakes and stupidities!
 
 ---
@@ -24,7 +24,7 @@ If you run `devserver` you can access via: [http://localhost:8000](http://localh
 
 ### Demo and Download
 
-Not a clean demo but this theme is used for our website
+Not a clean demo but this theme is used for [our website](www.deeplearnphysics.org).
 
 ---
 
