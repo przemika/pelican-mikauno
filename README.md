@@ -24,7 +24,7 @@ If you run `devserver` you can access via: [http://localhost:8000](http://localh
 
 ### Demo and Download
 
-Not a clean demo but this theme is used for [our website](www.deeplearnphysics.org).
+Not a clean demo but this theme is used for [our website](https://www.deeplearnphysics.org).
 
 ---
 
