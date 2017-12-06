@@ -1,6 +1,6 @@
 # pelican-uno
 
-A responsive, minimal [Pelican](http://docs.getpelican.com/en/stable/) theme with beautiful fonts. 
+A responsive, minimal theme with beaitufil fonts for [Pelican](http://docs.getpelican.com/en/stable/) static website generator (Python).
 This theme is based on [uno](https://github.com/daleanthony/Uno) for [Ghost](https://ghost.org) environment. 
 If you don't use python/Pelican but want to use uno theme, you might find following implementations useful:
 * [hugo-uno](https://github.com/fredrikloch/hugo-uno) ... using [Go](https://golang.org) under [Hugo](https://gohugo.io) environment
