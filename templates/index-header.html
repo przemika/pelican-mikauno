@@ -1,11 +1,19 @@
  <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width initial-scale=1" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <link href="http://gmpg.org/xfn/11" rel="profile">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta http-equiv="content-type" content="text/html; charset=utf-8">
 
-  <title>DeepLearnPhysics Group</title>
-  <meta name="description" content="Research Organization">
-  <meta name="author" content="Kazuhiro Terao">
+     <title>{% block title %}{{ SITENAME }}{% endblock title %}{% if SITESUBTITLE %} - {{ SITESUBTITLE }}{% endif %}</title>
+     <!-- Metadata -->
+    {% block metadata %}
+        <meta name="author" content={{ AUTHOR }}>
+        <meta name="description" content="{{ AUTHOR_BIO }}" />
+        <meta property="og:description" content="{{ AUTHOR_BIO }}" />
+        <meta property="og:title" content="{{ SITENAME }}{% if SITESUBTITLE %} - {{ SITESUBTITLE }}{% endif %}" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="{{ SITEURL }}" />
+    {% endblock %}
+  <meta property="og:image" content="{{ SITEURL }}/images/{{ PROFILE_IMAGE }}" />
   <meta name="HandheldFriendly" content="True">
   <meta name="MobileOptimized" content="320">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -13,12 +21,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Kazuhiro Terao">
-  <meta name="twitter:description" content="Research Organization">
-
-  <meta property="og:type" content="article">
-  <meta property="og:title" content="Kazuhiro Terao">
-  <meta property="og:description" content="Research Organization">
+  <meta name="twitter:title" content={{ AUTHOR }}>
+  <meta name="twitter:description" content={{ AUTHOR_BIO }}>
 
   <link rel="apple-touch-icon" sizes="57x57" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/favicons/apple-touch-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/favicons/apple-touch-icon-60x60.png">
@@ -39,8 +43,8 @@
   <meta name="msapplication-TileColor" content="#ffc40d">
   <meta name="msapplication-TileImage" content="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/favicons/mstile-144x144.png">
   <meta name="theme-color" content="#ffffff">
-
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Raleway:400,700|Roboto+Slab:300,400)">
   <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/main.css">
   <link rel="canonical" href="{{ SITEURL }}/">
-  <link rel="alternate" type="application/rss+xml" title="Kazuhiro Terao" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/xml/feed.xml">
+  <link rel="alternate" type="application/rss+xml" title={{ AUTHOR }} href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/xml/feed.xml">
 </head>
